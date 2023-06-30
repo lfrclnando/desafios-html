@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <fieldset form="contact" name="inputs-contact">
+      <legend>Entre em contato</legend>
+      <br />
+      <form id="contact" action="">
+        <div>
+          <label for="subject"><strong>Assunto:</strong></label>
+          <select name="subject">
+            <option value="suport">Suporte</option>
+            <option value="suggestion">Sugestão</option>
+            <option value="claim">Reclamação</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="inputs-contact"><strong>Nome Completo:</strong></label
+          ><br />
+          <input type="text" placeholder="Seu nome" />
+        </div>
+        <br />
+        <div>
+          <label for="inputs-contact"><strong>E-mail:</strong></label
+          ><br />
+          <input type="email" placeholder="email@seudominio.com" />
+        </div>
+        <br />
+        <div>
+          <label for="message"><strong>Mensagem:</strong></label
+          ><br />
+          <textarea name="message" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" name="news-emails" />
+          <label for="news-emails">Aceito receber novidades por e-mail</label>
+        </div>
+        <br />
+        <button type="submit" form="contact">Enviar</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
